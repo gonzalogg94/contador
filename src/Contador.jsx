@@ -1,16 +1,19 @@
-import { Container } from "react-bootstrap";
+import { Container ,Button } from "react-bootstrap";
 
 const Contador = () => {
   return (
-    <Container className="mt-4">
-      <section className="text-center">
-        <h1>Esto es un proyecto contador</h1>
+    <section className="bg-dark text-white">
+    <Container>
+      <article className="text-center">
+        <h2>Contador</h2>
         <hr></hr>
-        <div className="m-5">
-          20
-        </div>
-      </section>
+        <h3>10</h3>
+        <Button variant="primary">+1</Button>{' '}
+        <Button variant="secondary" className="mx-2">reset</Button>{' '}
+        <Button variant="primary">-1</Button>{' '}
+      </article>
     </Container>
+    </section>
   );
 };
 
