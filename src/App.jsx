@@ -4,7 +4,6 @@ import Menu from "./common/Menu";
 
 function App() {
   return (
-
     <section className="text-center">
       <Menu></Menu>
       <h1>Proyecto contador</h1>
