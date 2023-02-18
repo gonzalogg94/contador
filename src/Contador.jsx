@@ -1,6 +1,9 @@
 import { Container ,Button } from "react-bootstrap";
+import { useState } from "react";
+
 
 const Contador = () => {
+let prueba = 10;  
   return (
     <section className="bg-dark text-white">
     <Container>

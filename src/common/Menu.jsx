@@ -3,12 +3,12 @@ import Navbar from "react-bootstrap/Navbar";
 
 const Menu = () => {
   return (
-    <Navbar className="bg-primary">
+    <Navbar className="bg-dark py-4 text-center">
       <Container>
-        <Navbar.Brand href="#home">Inicio</Navbar.Brand>
+        <Navbar.Brand href="#home" className="text-white">Inicio</Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
-          <Navbar.Brand href="#home">Acerca de mi</Navbar.Brand>
+          <Navbar.Brand href="#home" className="text-white">Acerca de mi</Navbar.Brand>
         </Navbar.Collapse>
       </Container>
     </Navbar>
