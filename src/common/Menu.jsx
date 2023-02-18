@@ -1,18 +1,18 @@
-import Container from 'react-bootstrap/Container';
-import Navbar from 'react-bootstrap/Navbar';
+import Container from "react-bootstrap/Container";
+import Navbar from "react-bootstrap/Navbar";
 
 const Menu = () => {
-    return (
-        <Navbar className='bg-primary'>
-          <Container>
-            <Navbar.Brand href="#home">Inicio</Navbar.Brand>
-            <Navbar.Toggle />
-            <Navbar.Collapse className="justify-content-end">
-            <Navbar.Brand href="#home">Acerca de mi</Navbar.Brand>
-            </Navbar.Collapse>
-          </Container>
-        </Navbar>
-      );
+  return (
+    <Navbar className="bg-primary">
+      <Container>
+        <Navbar.Brand href="#home">Inicio</Navbar.Brand>
+        <Navbar.Toggle />
+        <Navbar.Collapse className="justify-content-end">
+          <Navbar.Brand href="#home">Acerca de mi</Navbar.Brand>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  );
 };
 
-export default Menu;<h2>Esto es un header</h2>
+export default Menu;

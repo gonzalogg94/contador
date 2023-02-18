@@ -1,11 +1,9 @@
-import React from 'react';
-
 const Footer = () => {
-    return (
-        <div>
-            <h3>Todos los derechos reservados</h3>
-        </div>
-    );
+  return (
+    <footer className="bg-dark text-light py-4 text-center">
+      <p>&copy; Todos los derechos reservados</p>
+    </footer>
+  );
 };
 
-export default Footer;<h3>Todos los derechos reservados</h3>
+export default Footer;
