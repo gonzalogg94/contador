@@ -3,17 +3,29 @@ import { useState } from "react";
 
 
 const Contador = () => {
-let prueba = 10;  
+const [numero, setNumero] = useState(0)
+
+const sumar=()=>{
+  setNumero(numero+1)
+}
+const restar=()=>{
+  setNumero(numero-1)
+}
+const reset=()=>{
+  setNumero(0)
+}
+
+
   return (
     <section className="bg-dark text-white">
     <Container>
       <article className="text-center">
         <h2>Contador</h2>
         <hr></hr>
-        <h3>10</h3>
-        <Button variant="primary">+1</Button>{' '}
-        <Button variant="secondary" className="mx-2">reset</Button>{' '}
-        <Button variant="primary">-1</Button>{' '}
+        <h3>{numero}</h3>
+        <Button variant="primary" onClick={sumar}>+1</Button>{' '}
+        <Button variant="secondary" className="mx-2" onClick={reset}>reset</Button>{' '}
+        <Button variant="primary" onClick={restar}>-1</Button>{' '}
       </article>
     </Container>
     </section>
