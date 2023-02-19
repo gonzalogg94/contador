@@ -17,8 +17,8 @@ const reset=()=>{
 
 
   return (
-    <section className="bg-dark text-white">
-    <Container>
+    <section className="bg-dark text-white mainSection pt-5">
+    <Container className="pt-5">
       <article className="text-center">
         <h2>Contador</h2>
         <hr></hr>
