@@ -9,6 +9,10 @@
 - [react-router-dom]-[https://reactrouter.com/en/main]
 - [react-hook-form]-[https://react-hook-form.com/]
 
+## Para ver el proyecto 💻:
+*Ingresar a:* 
+react-contador-gonzalogallardo.netlify.app
+
 
 ## Para probar el proyecto 💻:
 *En una terminal realizar el clonado del repositorio con el siguiente comando*
